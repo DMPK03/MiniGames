@@ -3,7 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class Launcher : MonoBehaviour
 {  
-
     private void Awake() {
         Application.targetFrameRate = 60;
     }
@@ -17,5 +16,4 @@ public class Launcher : MonoBehaviour
     {
         Application.Quit();
     }
-
 }
